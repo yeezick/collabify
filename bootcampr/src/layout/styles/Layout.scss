@@ -1,0 +1,108 @@
+@import 'scss/variables';
+
+.main-wrapper, .portal-wrapper {
+  margin-top: $nav-height;
+}
+
+.main-wrapper {
+  display: flex;
+  .main-content-container {
+    background-color: #fff;
+    min-height: calc(100vh - 250px);
+    padding-bottom: 12rem;
+    width: 100%;
+  }
+}
+
+.portal-wrapper {
+  .banner {
+    align-items: center;
+    background-color: #fff3e0;
+    display: flex;
+    justify-content: space-between;
+    min-height: 91px;
+    height: fit-content;
+    width: 100vw;
+
+    img {
+      height: 75px;
+      margin-left: 32px;
+      width: 75px;
+    }
+
+    .waitlist-img {
+      height: 128px;
+      width: 128px;
+    }
+
+    .content {
+      color: #1944a3;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin: 16px 0;
+      font-weight: bold;
+
+      h2, p {
+        margin: 0
+      }
+
+      h2 {
+        font-weight: bold;
+        font-size: 28;
+        line-height: 36px;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      .infotext {
+        display: flex;
+        font-weight: bolder;
+        gap: 4px;
+        text-align: left;
+        align-items: center;
+      }
+    }
+
+    .cta-button {
+      margin-right: 32px;
+    }
+  }
+  
+  .portal-layout {
+    display:flex;
+    
+    .portal-view {
+      background-color: white;
+      height: calc(100vh - $nav-height);
+      overflow-y: scroll;
+      width: calc(100% - $sidemenu-width); 
+      
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      
+      .portal-content { 
+        height: calc(100% - $header-height);        
+      }
+    }
+  }
+}
+  
+.landing-main-content-container {
+  min-height: calc(100vh - 250px);
+}
+
+#forgot-password-link {
+  color: #0d47a1;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 4px;
+  text-decoration: underline;
+}

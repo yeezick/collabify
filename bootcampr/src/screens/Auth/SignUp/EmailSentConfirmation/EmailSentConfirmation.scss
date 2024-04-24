@@ -1,0 +1,103 @@
+@import 'scss/mixins';
+
+.email-confirmation-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0 auto;
+  margin-top: 64px;
+  text-align: center;
+  width: 682px;
+
+  .message-content {
+    &.header {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 44px;
+      margin: 0;
+      margin-bottom: 8px;
+    }
+
+    &.subheader {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+      margin: 0;
+      margin-bottom: 8px;
+
+      span {
+        color: #5c6bc0;
+      }
+    }
+
+    &.text {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      width: 456px;
+
+      p {
+        margin: 0;
+      }
+    }
+
+    &.confirm {
+      font-weight: 700;
+      margin-bottom: 32px;
+    }
+
+    &.update-email {
+      display: inline;
+      div {
+        color: #0d47a1;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .img-container {
+    margin-top: 32px;
+
+    img {
+      content: url('../../../../assets/Images/accountCreated.png');
+      height: 100%;
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+}
+
+@include whenMobile {
+  .email-confirmation-container {
+    margin-top: 32px;
+    width: auto;
+
+    .img-container > img {
+      content: url('../../../../assets/Images/Launch.png');
+      height: 189px;
+      margin-bottom: 32px;
+      width: 189px;
+    }
+
+    .message-content {
+      &.subheader {
+        margin-bottom: 32px;
+      }
+      &.text,
+      &.content {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 24px;
+        margin-bottom: 8px;
+        width: 100%;
+      }
+
+      &.content {
+        text-align: left;
+        width: 272px;
+      }
+    }
+  }
+}

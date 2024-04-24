@@ -1,0 +1,92 @@
+@import 'scss/variables';
+@import 'scss/mixins';
+
+.onboarding-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+
+  .role-selection-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    row-gap: 16px;
+
+    .roles {
+      column-gap: 32px;
+      display: flex;
+
+      .role {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        row-gap: 8px;
+        width: 290px;
+
+        .role-avatar {
+          img {
+            width: 100%;
+          }
+        }
+
+        .role-content {
+          text-align: center;
+
+          h5 {
+            font-size: 28px;
+            line-height: 24px;
+            margin: 10px;
+          }
+
+          p {
+            font-size: 18px;
+            line-height: 20px;
+            margin: 20px 16px 0;
+            text-align: left;
+          }
+        }
+      }
+    }
+
+    .tell-role {
+      font-size: 24px;
+      font-style: normal;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .welcome-container {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    row-gap: 8px;
+
+    h1 {
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 44px;
+      margin: 0;
+      text-align: left;
+    }
+
+    p {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      margin: 0px;
+      text-align: left;
+    }
+  }
+}
+
+.paginator {
+  margin: 0;
+}

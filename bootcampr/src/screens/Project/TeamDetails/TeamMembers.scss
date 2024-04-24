@@ -1,0 +1,87 @@
+@import 'scss/variables';
+@import 'scss/mixins';
+
+.team-members {
+  box-sizing: border-box;
+  padding: 16px;
+
+  .team-members-info {
+    display: flex; 
+    gap: 8px;
+  
+    .role-column {
+      background-color: #c5cae9;
+      border-radius: 4px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      height: fit-content;
+      padding: 12px;
+
+      .role-header {
+        h3 {
+          background-color: $secondary-dark;
+          border-radius: 4px;;
+          color: $white;
+          margin: 0;
+          padding: 3px 0 3px 8px;
+        }
+      }
+
+      .member-card {
+        background-color: $white;
+        border-radius: 4px;
+        box-shadow: 0px 1px 3px 1px rgba(26, 35, 126, 0.15),
+            0px 1px 2px 0px rgba(26, 36, 126, 0.3);
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 16px;
+        width: 280px;
+         
+        .member-info {
+          display: flex;
+          gap: 16px;
+          padding-left: 16px;
+
+          .member-img {
+            align-self: center;
+          }
+
+          .member-desc {
+            display: flex; 
+            flex-direction: column;
+            justify-content: space-evenly;
+            p {
+              margin: 0;
+            }
+
+            .name {
+              color: $black;
+              font-size: 20px;
+              font-weight: 600;
+            }
+
+            .role {
+              font-size: 16px;
+              font-weight: 600;
+              color: $dark-gray;
+            }
+          }
+        }
+
+        .member-buttons {
+          display: flex;
+          justify-content: space-evenly;
+
+          .common-button.primary.MuiButton-outlined, .common-button.primary.MuiButton-contained  {
+            font-size: 12px;
+            height: 32px;
+            padding: 0 18px;
+          }
+        }
+      }
+    }
+  }
+}

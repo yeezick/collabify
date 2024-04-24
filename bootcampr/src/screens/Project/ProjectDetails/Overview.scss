@@ -1,0 +1,102 @@
+@import 'scss/variables';
+@import 'scss/mixins';
+
+.overview {
+  color: #212121;
+  max-width: 650px;
+  padding: 16px 0 0;
+
+  .ov-text-cont {
+    @include flex(column);
+    flex: 1 0 0;
+    gap: 16px;
+    height: 100%;
+    padding: 0;
+    position: relative;
+    width: 100%;
+  }
+
+  .ov-header-cont {
+    @include flex(revert, flex-start, center);
+    flex: 0 0 auto;
+    gap: 8px;
+    height: 100%;
+    position: relative;
+    width: 100%;
+
+h1 {
+      color: #212121;
+      flex: 1 1 0;
+      margin: 0;
+      padding: 0;
+      word-wrap: break-word;
+      @include font-properties(
+        (
+          size: 22px,
+          weight: 700,
+          line-height: 28px,
+        )
+      );
+    }
+  }
+
+  .ov-info-cont {
+    @include flex(column);
+    align-self: stretch;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .ov-sub-info {
+    color: #212121;
+    width: 100%;
+    word-wrap: break-word;
+    @include font-properties(
+      (
+        size: 16px,
+        weight: inherit,
+        line-height: 24px,
+      )
+    );
+b {
+      font-weight: 700;
+      margin: 0;
+      padding: 0;
+    }
+
+    p {
+      font-weight: 400;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .MuiAccordion-root.Mui-expanded {
+    margin: 0px;
+  }
+
+  .MuiAccordionSummary-root.Mui-expanded {
+    min-height: 40px;
+  }
+  .MuiAccordionSummary-content.Mui-expanded {
+    margin: 0px 0px;
+  }
+
+  .title {
+    font-weight: 600;
+    margin: 0px 0px;
+  }
+
+  .details-div p{
+    margin: 5px 0px;
+  }
+
+  .details-div ul {
+    margin: 5px 0px;
+  }
+
+  .products-req-doc {
+    color: #0D47A1;
+  }
+}
