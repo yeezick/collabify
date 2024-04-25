@@ -1,9 +1,9 @@
 // import { useLocation, useParams } from 'react-router-dom'
-// import { api } from 'utils/api/apiConfig'
+// import { api } from '@/@/api/apiConfig'
 // import { TbRefreshAlert } from 'react-icons/tb'
 // import './ExpiredLink.scss'
 // import { useDispatch } from 'react-redux'
-// import { createSnackBar } from 'utils/redux/slices/snackBarSlice'
+// import { createSnackBar } from '@/redux/slices/snackBarSlice'
 
 // export const ExpiredLink = () => {
 //   const dispatch = useDispatch()
@@ -46,10 +46,10 @@
 //   )
 // }
 
-import React from "react";
+import React from 'react'
 
 const ExpiredLink = () => {
-  return <div>ExpiredLink</div>;
-};
+  return <div>ExpiredLink</div>
+}
 
-export default ExpiredLink;
+export default ExpiredLink

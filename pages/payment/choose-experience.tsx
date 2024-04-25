@@ -1,21 +1,21 @@
 // import { PrimaryButton } from 'components/Buttons/ButtonVariants'
 // import { useNavigate } from 'react-router-dom'
-// import { updatePaymentExperience } from 'utils/api/payment'
-// import { useAppDispatch, useAppSelector } from 'utils/redux/hooks'
+// import { updatePaymentExperience } from '@/@/api/payment'
+// import { useAppDispatch, useAppSelector } from '@/redux/hooks'
 // import {
 //   selectUserId,
 //   updateUserExperience,
 //   updateUserProject,
-// } from 'utils/redux/slices/userSlice'
+// } from '@/redux/slices/userSlice'
 // import './styles/ChooseExperience.scss'
-// import { fetchIcon } from 'utils/components/Icons'
-// import { errorSnackbar } from 'utils/helpers/commentHelpers'
-// import { buildProjectPortal } from 'utils/helpers'
-// import { setPortal } from 'utils/redux/slices/userInterfaceSlice'
-// import { getOneProject } from 'utils/api'
-// import { setProject } from 'utils/redux/slices/projectSlice'
+// import { fetchIcon } from '@/utils/components/Icons'
+// import { errorSnackbar } from '@/utils/helpers/commentHelpers'
+// import { buildProjectPortal } from '@/utils/helpers'
+// import { setPortal } from '@/redux/slices/userInterfaceSlice'
+// import { getOneProject } from '@/utils/api'
+// import { setProject } from '@/redux/slices/projectSlice'
 // import { SecondaryButton } from 'components/Buttons'
-// import { handleJoinTeam } from 'utils/helpers/paymentHelpers'
+// import { handleJoinTeam } from '@/utils/helpers/paymentHelpers'
 
 // export const ChooseExperience = () => {
 //   return (
@@ -132,10 +132,10 @@
 //   )
 // }
 
-import React from "react";
+import React from 'react'
 
 const ChooseExperience = () => {
-  return <div>ChooseExperience</div>;
-};
+  return <div>ChooseExperience</div>
+}
 
-export default ChooseExperience;
+export default ChooseExperience

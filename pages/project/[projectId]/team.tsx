@@ -1,5 +1,5 @@
-// import { useAppSelector } from 'utils/redux/hooks'
-// import { selectMembersByRole } from 'utils/redux/slices/projectSlice'
+// import { useAppSelector } from '@/redux/hooks'
+// import { selectMembersByRole } from '@/redux/slices/projectSlice'
 // import { TeamMemberCard } from './TeamMemberCard'
 // import './TeamMembers.scss'
 
@@ -57,10 +57,10 @@
 //   )
 // }
 
-import React from "react";
+import React from 'react'
 
 const TeamMembers = () => {
-  return <div>TeamMembers</div>;
-};
+  return <div>TeamMembers</div>
+}
 
-export default TeamMembers;
+export default TeamMembers

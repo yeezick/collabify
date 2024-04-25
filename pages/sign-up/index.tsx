@@ -2,12 +2,12 @@
 // import { Link, useNavigate } from 'react-router-dom'
 // import { FaInfoCircle } from 'react-icons/fa'
 // import { GoAlert } from 'react-icons/go'
-// import { register, reset, uiStatus } from 'utils/redux/slices/userSlice'
-// import { useAppDispatch, useAppSelector } from 'utils/redux/hooks'
-// import { SignUpInterface } from 'interfaces/UserInterface'
-// import { PasswordErrors } from 'interfaces/components/Input'
-// import { AlertBanners } from 'interfaces/AccountSettingsInterface'
-// import { emptySignUp } from 'utils/data/userConstants'
+// import { register, reset, uiStatus } from '@/redux/slices/userSlice'
+// import { useAppDispatch, useAppSelector } from '@/redux/hooks'
+// import { SignUpInterface } from '@/interfaces/UserInterface'
+// import { PasswordErrors } from '@/interfaces/components/Input'
+// import { AlertBanners } from '@/interfaces/AccountSettingsInterface'
+// import { emptySignUp } from '@/utils/data/userConstants'
 // import { Email, Text, PasswordInputs } from 'components/Inputs'
 // import './SignUp.scss'
 // import { Checkbox, FormControlLabel } from '@mui/material'
@@ -221,10 +221,10 @@
 // }
 // */
 
-import React from "react";
+import React from 'react'
 
 const SignUp = () => {
-  return <div>SignUp</div>;
-};
+  return <div>SignUp</div>
+}
 
-export default SignUp;
+export default SignUp

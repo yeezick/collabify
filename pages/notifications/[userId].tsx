@@ -1,9 +1,9 @@
 // import { useEffect } from 'react'
 // import { useLocation, useNavigate } from 'react-router-dom'
-// import { useAppDispatch, useAppSelector } from 'utils/redux/hooks'
-// import { selectAuthUser } from 'utils/redux/slices/userSlice'
-// import { selectSortedThreads } from 'utils/redux/slices/chatSlice'
-// import { chatRouterHandler } from 'utils/helpers/emailRouterHelpers'
+// import { useAppDispatch, useAppSelector } from '@/redux/hooks'
+// import { selectAuthUser } from '@/redux/slices/userSlice'
+// import { selectSortedThreads } from '@/redux/slices/chatSlice'
+// import { chatRouterHandler } from '@/utils/helpers/emailRouterHelpers'
 
 // export const EmailRouter = () => {
 //   const dispatch = useAppDispatch()
@@ -24,10 +24,10 @@
 //   return null
 // }
 
-import React from "react";
+import React from 'react'
 
 const EmailRouter = () => {
-  return <div>EmailRouter</div>;
-};
+  return <div>EmailRouter</div>
+}
 
-export default EmailRouter;
+export default EmailRouter

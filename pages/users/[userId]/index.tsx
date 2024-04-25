@@ -1,22 +1,22 @@
 // import { useState, useEffect } from 'react'
 // import { useNavigate, useParams } from 'react-router-dom'
-// import { useAppDispatch, useAppSelector } from 'utils/redux/hooks'
-// import { selectAuthUser } from 'utils/redux/slices/userSlice'
-// import { selectMembersAsTeam } from 'utils/redux/slices/projectSlice'
-// import { UserInterface } from 'interfaces'
-// import { emptyUser } from 'utils/data/userConstants'
+// import { useAppDispatch, useAppSelector } from '@/redux/hooks'
+// import { selectAuthUser } from '@/redux/slices/userSlice'
+// import { selectMembersAsTeam } from '@/redux/slices/projectSlice'
+// import { UserInterface } from '@/interfaces'
+// import { emptyUser } from '@/utils/data/userConstants'
 // import Avatar from 'components/Avatar/Avatar'
 // import { RiGithubLine } from 'react-icons/ri'
 // import { FiLinkedin } from 'react-icons/fi'
 // import { TbBriefcase } from 'react-icons/tb'
-// import { createOrGetPrivateChatRoom } from 'utils/api/chat'
+// import { createOrGetPrivateChatRoom } from '@/@/api/chat'
 // import {
 //   onScreenUpdate,
 //   processChatRoom,
 //   setCurrentChat,
 //   toggleChatOpen,
-// } from 'utils/redux/slices/chatSlice'
-// import { ChatScreen } from 'utils/data/chatConstants'
+// } from '@/redux/slices/chatSlice'
+// import { ChatScreen } from '@/utils/data/chatConstants'
 // import { useSocketEvents } from 'components/Notifications/Socket'
 // import './UserProfile.scss'
 
@@ -196,10 +196,10 @@
 //   )
 // }
 
-import React from "react";
+import React from 'react'
 
 const UserProfile = () => {
-  return <div>UserProfile</div>;
-};
+  return <div>UserProfile</div>
+}
 
-export default UserProfile;
+export default UserProfile

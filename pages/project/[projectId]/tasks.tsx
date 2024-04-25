@@ -1,13 +1,13 @@
 // import { useEffect } from 'react'
-// import { useAppDispatch, useAppSelector } from 'utils/redux/hooks'
-// import { selectProjectTracker } from 'utils/redux/slices/projectSlice'
+// import { useAppDispatch, useAppSelector } from '@/redux/hooks'
+// import { selectProjectTracker } from '@/redux/slices/projectSlice'
 // import { BoardColumns } from './BoardColumns/BoardColumns'
 // import { NoTicketsCreated } from './NoTicketsCreated'
 // import {
 //   setVisibleTickets,
 //   setInitialVisibleTickets,
-// } from 'utils/redux/slices/taskBoardSlice'
-// import { selectUserId } from 'utils/redux/slices/userSlice'
+// } from '@/redux/slices/taskBoardSlice'
+// import { selectUserId } from '@/redux/slices/userSlice'
 // import { TicketDialog } from '../TicketDialog/TicketDialog'
 
 // export const TaskBoard = () => {
@@ -38,10 +38,10 @@
 //   )
 // }
 
-import React from "react";
+import React from 'react'
 
 const TaskBoard = () => {
-  return <div>TaskBoard</div>;
-};
+  return <div>TaskBoard</div>
+}
 
-export default TaskBoard;
+export default TaskBoard

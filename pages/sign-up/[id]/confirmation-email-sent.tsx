@@ -2,7 +2,7 @@
 // import './EmailSentConfirmation.scss'
 // import { useNavigate } from 'react-router-dom'
 // import { PrimaryButton } from 'components/Buttons'
-// import { isMobileWidth } from 'utils/helpers'
+// import { isMobileWidth } from '@/utils/helpers'
 // import { UpdateEmailAddressLink } from '../../../../components/UpdateEmailAddressLink/UpdateEmailAddressLink'
 
 // export const EmailSentConfirmation: React.FC = () => {
@@ -84,10 +84,10 @@
 //     </div>
 //   )
 // }
-import React from "react";
+import React from 'react'
 
 const EmailSentConfirmation = () => {
-  return <div>EmailSentConfirmation</div>;
-};
+  return <div>EmailSentConfirmation</div>
+}
 
-export default EmailSentConfirmation;
+export default EmailSentConfirmation

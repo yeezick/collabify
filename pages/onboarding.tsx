@@ -4,11 +4,11 @@
 // import './Onboarding.scss'
 // import { SetupAvailability } from './SetupAvailability'
 // import { useEffect } from 'react'
-// import { selectAuthUser } from 'utils/redux/slices/userSlice'
-// import { useAppSelector } from 'utils/redux/hooks'
+// import { selectAuthUser } from '@/redux/slices/userSlice'
+// import { useAppSelector } from '@/redux/hooks'
 // import { useLocation, useNavigate } from 'react-router-dom'
 // import { WhatsNext } from './WhatsNext'
-// import { isSandboxId } from 'utils/helpers/taskHelpers'
+// import { isSandboxId } from '@/utils/helpers/taskHelpers'
 
 // export const Onboarding = () => {
 //   const authUser = useAppSelector(selectAuthUser)
@@ -66,10 +66,10 @@
 //     </div>
 //   )
 // }
-import React from "react";
+import React from 'react'
 
 const Onboarding = () => {
-  return <div>Onboarding</div>;
-};
+  return <div>Onboarding</div>
+}
 
-export default Onboarding;
+export default Onboarding

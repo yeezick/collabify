@@ -6,11 +6,11 @@
 //   ResType,
 //   SuccessQueryParam,
 //   emptySuccessScreenValues,
-// } from 'utils/data/authSettingsConstants'
-// import { forgotPasswordEmailVerification, getOneUser } from 'utils/api'
-// import { useAppDispatch } from 'utils/redux/hooks'
-// import { SuccessScreenValues } from 'interfaces/AccountSettingsInterface'
-// import { errorSnackbar, successSnackbar } from 'utils/helpers/commentHelpers'
+// } from '@/utils/data/authSettingsConstants'
+// import { forgotPasswordEmailVerification, getOneUser } from '@/utils/api'
+// import { useAppDispatch } from '@/redux/hooks'
+// import { SuccessScreenValues } from '@/interfaces/AccountSettingsInterface'
+// import { errorSnackbar, successSnackbar } from '@/utils/helpers/commentHelpers'
 
 // export const SuccessScreen = () => {
 //   const navigate = useNavigate()
@@ -142,10 +142,10 @@
 //   )
 // }
 
-import React from "react";
+import React from 'react'
 
 const Success = () => {
-  return <div>Success</div>;
-};
+  return <div>Success</div>
+}
 
-export default Success;
+export default Success

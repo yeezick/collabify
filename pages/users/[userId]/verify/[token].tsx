@@ -1,10 +1,10 @@
 // import { useEffect } from 'react'
 // import { useLocation, useNavigate, useParams } from 'react-router-dom'
 // import { useDispatch } from 'react-redux'
-// import { updateAuthUser } from 'utils/redux/slices/userSlice'
+// import { updateAuthUser } from '@/redux/slices/userSlice'
 // import './EmailVerify.scss'
-// import { api } from 'utils/api/apiConfig'
-// import { logOut } from 'utils/api'
+// import { api } from '@/@/api/apiConfig'
+// import { logOut } from '@/utils/api'
 
 // export const EmailVerify = () => {
 //   const navigate = useNavigate()
@@ -60,10 +60,10 @@
 //   return null
 // }
 
-import React from "react";
+import React from 'react'
 
 const EmailVerify = () => {
-  return <div>EmailVerify</div>;
-};
+  return <div>EmailVerify</div>
+}
 
-export default EmailVerify;
+export default EmailVerify

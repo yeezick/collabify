@@ -1,12 +1,12 @@
 // import './SignIn.scss'
 // import { useState, useEffect } from 'react'
 // import { useNavigate, Link } from 'react-router-dom'
-// import { useAppDispatch } from 'utils/redux/hooks'
-// import { signIn } from 'utils/api'
-// import { setAuthUser, updateAuthUser } from 'utils/redux/slices/userSlice'
-// import { SignInInterface } from 'interfaces/UserInterface'
-// import { AlertBanners } from 'interfaces/AccountSettingsInterface'
-// import { storeUserProject } from 'utils/helpers/stateHelpers'
+// import { useAppDispatch } from '@/redux/hooks'
+// import { signIn } from '@/utils/api'
+// import { setAuthUser, updateAuthUser } from '@/redux/slices/userSlice'
+// import { SignInInterface } from '@/interfaces/UserInterface'
+// import { AlertBanners } from '@/interfaces/AccountSettingsInterface'
+// import { storeUserProject } from '@/utils/helpers/stateHelpers'
 // import { ForgotPasswordLink } from 'screens/AccountSettings/components/ForgotPasswordLink'
 // import { toggleVisiblity } from 'components/Inputs'
 // import { GoAlert } from 'react-icons/go'
@@ -14,9 +14,9 @@
 // import { Visibility, VisibilityOff } from '@mui/icons-material'
 // import login from '../../../assets/Images/login.png'
 // import './SignIn.scss'
-// import { buildProjectPortal } from 'utils/helpers'
-// import { setPortal } from 'utils/redux/slices/userInterfaceSlice'
-// import { isSandboxId, isWaitlistExperience } from 'utils/helpers/taskHelpers'
+// import { buildProjectPortal } from '@/utils/helpers'
+// import { setPortal } from '@/redux/slices/userInterfaceSlice'
+// import { isSandboxId, isWaitlistExperience } from '@/utils/helpers/taskHelpers'
 
 // const SignIn: React.FC = (): JSX.Element => {
 //   const [buttonDisabled, setButtonDisabled] = useState<boolean>(true)
@@ -200,10 +200,10 @@
 
 // export { SignIn }
 
-import React from "react";
+import React from 'react'
 
 const Login = () => {
-  return <div>Login</div>;
-};
+  return <div>Login</div>
+}
 
-export default Login;
+export default Login

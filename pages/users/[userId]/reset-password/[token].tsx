@@ -1,16 +1,16 @@
 // import './Settings.scss'
-// import { PasswordFormData } from 'interfaces/AccountSettingsInterface'
-// import { PasswordErrors } from 'interfaces/components'
+// import { PasswordFormData } from '@/interfaces/AccountSettingsInterface'
+// import { PasswordErrors } from '@/interfaces/components'
 // import { useState } from 'react'
 // import { useDispatch } from 'react-redux'
 // import { useNavigate, useParams } from 'react-router-dom'
-// import { updateUsersPassword } from 'utils/api'
-// import { SuccessQueryParam } from 'utils/data/authSettingsConstants'
-// import { emptyPasswordData } from 'utils/data/userConstants'
-// import { useFormValidation } from 'utils/helpers'
+// import { updateUsersPassword } from '@/utils/api'
+// import { SuccessQueryParam } from '@/utils/data/authSettingsConstants'
+// import { emptyPasswordData } from '@/utils/data/userConstants'
+// import { useFormValidation } from '@/utils/helpers'
 // import { Button, ThemeProvider, createTheme } from '@mui/material'
 // import { PasswordInputs } from 'components/Inputs'
-// import { errorSnackbar } from 'utils/helpers/commentHelpers'
+// import { errorSnackbar } from '@/utils/helpers/commentHelpers'
 
 // export const ResetPassword = () => {
 //   const [formValues, setFormValues] =
@@ -75,10 +75,10 @@
 //   )
 // }
 
-import React from "react";
+import React from 'react'
 
 const ResetPassword = () => {
-  return <div>ResetPassword</div>;
-};
+  return <div>ResetPassword</div>
+}
 
-export default ResetPassword;
+export default ResetPassword

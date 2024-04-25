@@ -1,19 +1,19 @@
 // import { useEffect } from 'react'
 // import { useNavigate, useSearchParams } from 'react-router-dom'
-// import { useAppDispatch, useAppSelector } from 'utils/redux/hooks'
+// import { useAppDispatch, useAppSelector } from '@/redux/hooks'
 // import {
 //   selectAuthUser,
 //   updateAuthUser,
 //   updateUserExperience,
-// } from 'utils/redux/slices/userSlice'
+// } from '@/redux/slices/userSlice'
 // import { PrimaryButton } from 'components/Buttons'
 // import './WhatsNext.scss'
 // import {
 //   updatePaymentExperience,
 //   updateUserProfile,
 //   verifyPayment,
-// } from 'utils/api'
-// import { errorSnackbar } from 'utils/helpers/commentHelpers'
+// } from '@/utils/api'
+// import { errorSnackbar } from '@/utils/helpers/commentHelpers'
 
 // export const WhatsNext = () => {
 //   const authUser = useAppSelector(selectAuthUser)
@@ -110,10 +110,10 @@
 //   )
 // }
 
-import React from "react";
+import React from 'react'
 
 const WhatsNext = () => {
-  return <div>WhatsNext</div>;
-};
+  return <div>WhatsNext</div>
+}
 
-export default WhatsNext;
+export default WhatsNext

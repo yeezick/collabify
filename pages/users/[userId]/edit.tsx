@@ -1,14 +1,14 @@
 // import { useEffect, useState } from 'react'
 // import { useNavigate, useParams } from 'react-router-dom'
 // import { useSelector } from 'react-redux'
-// import { useAppDispatch } from 'utils/redux/hooks'
-// import { selectAuthUser, setAuthUser } from 'utils/redux/slices/userSlice'
-// import { emptyUser } from 'utils/data/userConstants'
-// import { updateUser } from 'utils/api/users'
+// import { useAppDispatch } from '@/redux/hooks'
+// import { selectAuthUser, setAuthUser } from '@/redux/slices/userSlice'
+// import { emptyUser } from '@/utils/data/userConstants'
+// import { updateUser } from '@/@/api/users'
 // import Avatar from 'components/Avatar/Avatar'
 // import TextareaAutosize from 'react-textarea-autosize'
 // import './EditProfile.scss'
-// import { errorSnackbar, successSnackbar } from 'utils/helpers/commentHelpers'
+// import { errorSnackbar, successSnackbar } from '@/utils/helpers/commentHelpers'
 
 // export const EditProfile: React.FC = () => {
 //   const authUser = useSelector(selectAuthUser)
@@ -179,10 +179,10 @@
 //   )
 // }
 
-import React from "react";
+import React from 'react'
 
 const EditProfile = () => {
-  return <div>EditProfile</div>;
-};
+  return <div>EditProfile</div>
+}
 
-export default EditProfile;
+export default EditProfile

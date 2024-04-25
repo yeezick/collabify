@@ -2,7 +2,7 @@
 // import { PrimaryButton } from "components/Buttons";
 // import { useEffect } from "react";
 // import { useNavigate } from "react-router-dom";
-// import { isMobileWidth } from "utils/helpers";
+// import { isMobileWidth } from "@/utils/helpers";
 
 // export const MobileGate = () => {
 //   const navigate = useNavigate();
@@ -44,10 +44,10 @@
 //   );
 // };
 
-import React from "react";
+import React from 'react'
 
 const MobileGate = () => {
-  return <div>MobileGate</div>;
-};
+  return <div>MobileGate</div>
+}
 
-export default MobileGate;
+export default MobileGate

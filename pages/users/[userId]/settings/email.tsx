@@ -1,11 +1,11 @@
 // import './Settings.scss'
 // import { useEffect, useState } from 'react'
-// import { useAppSelector } from 'utils/redux/hooks'
-// import { selectAuthUser } from 'utils/redux/slices/userSlice'
+// import { useAppSelector } from '@/redux/hooks'
+// import { selectAuthUser } from '@/redux/slices/userSlice'
 // import { useNavigate } from 'react-router-dom'
 // import { useDispatch } from 'react-redux'
-// import { api } from 'utils/api/apiConfig'
-// import { createSnackBar } from 'utils/redux/slices/snackBarSlice'
+// import { api } from '@/@/api/apiConfig'
+// import { createSnackBar } from '@/redux/slices/snackBarSlice'
 
 // export const Email = () => {
 //   const navigate = useNavigate()
@@ -126,10 +126,10 @@
 //   return response
 // }
 
-import React from "react";
+import React from 'react'
 
 const Email = () => {
-  return <div>Email</div>;
-};
+  return <div>Email</div>
+}
 
-export default Email;
+export default Email
