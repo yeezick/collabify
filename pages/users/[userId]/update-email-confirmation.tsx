@@ -31,10 +31,10 @@
 //   )
 // }
 
-import React from "react";
+import React from 'react'
 
 const UpdateEmailConfirmation = () => {
-  return <div>UpdateEmailConfirmation</div>;
-};
+  return <div>UpdateEmailConfirmation</div>
+}
 
-export default UpdateEmailConfirmation;
+export default UpdateEmailConfirmation

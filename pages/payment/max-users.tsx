@@ -33,10 +33,10 @@
 //   )
 // }
 
-import React from "react";
+import React from 'react'
 
 const MaxUsers = () => {
-  return <div>MaxUsers</div>;
-};
+  return <div>MaxUsers</div>
+}
 
-export default MaxUsers;
+export default MaxUsers

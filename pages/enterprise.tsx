@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
 const Enterprise = () => {
-  return <div>Enterprise</div>;
-};
+  return <div>Enterprise</div>
+}
 
-export default Enterprise;
+export default Enterprise

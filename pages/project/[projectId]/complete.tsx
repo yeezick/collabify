@@ -38,10 +38,10 @@
 //   )
 // }
 
-import React from "react";
+import React from 'react'
 
 const ProjectCompletion = () => {
-  return <div>ProjectCompletion</div>;
-};
+  return <div>ProjectCompletion</div>
+}
 
-export default ProjectCompletion;
+export default ProjectCompletion
